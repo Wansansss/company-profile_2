@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, useLocation, Navigate } from "react-router-dom";
+import React, { Suspense } from "react";
+import {
+  NotFound,
+  Loader,
+  ScrollToTop,
+  Navbar,
+  Footer,
+} from "./components";
+import Kontak from "./pages/Kontak";
+import Tentang from "./pages/Tentang";
+const Layanan = React.lazy(() => import("./pages/Layanan"));
+const Home = React.lazy(() => import("./pages/Home"));
 
 function App() {
+  const location = useLocation();
+  const isFalse = location.pathname.includes("404");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ScrollToTop />
+      {isFalse || <Navbar />}
+      <Suspense fallback={<Loader />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tentang" element={<Tentang />} />
+          <Route path="/layanan" element={<Layanan />} />
+          <Route path="/kontak" element={<Kontak />} />
+          <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<Navigate replace to="/404" />}></Route>
+        </Routes>
+      </Suspense>
+      {isFalse || <Footer />}
+    </>
   );
 }
 
