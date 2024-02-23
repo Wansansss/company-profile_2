@@ -60,10 +60,10 @@ const Kontak = () => {
             <h3 className="font-medium text-purple-700">4, Jl. Utama Raya No.11.f, RT.4/RW.3, Cengkareng Bar., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730</h3>
           </div>
           <div className="flex items-center my-6">
-            <a href={"https://wa.me/082137026688"}>
+            <a href={"https://wa.me/6282227000222?text=Hallo Admin,"}>
               <FaPhoneAlt className="mr-8 text-2xl duration-300 cursor-pointer hover:text-purple-700" />
             </a>
-            <h3 className="font-medium text-purple-700">+62 821-3702-6688</h3>
+            <a href={"https://wa.me/6282227000222?text=Hallo Admin,"}><h3 className="font-medium text-purple-700">+62 822-2700-0222</h3></a>
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="mr-8 text-2xl duration-300 cursor-pointer hover:text-purple-700"></MdEmail>
