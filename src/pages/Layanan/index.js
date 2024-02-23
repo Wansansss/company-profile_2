@@ -54,7 +54,7 @@ const Layanan = () => {
                 <div className="w-full h-[1px] bg-purple-700 inline-block align-bottom mb-4"></div>
                 <div className="text-accent">
                   <div className="flex items-center mb-2">
-                    <span className="text-sm text-gray-600 ">{item.description}</span>
+                    <span className="text-md text-black font-semibold ">{item.description}</span>
                   </div>
                 </div>
               </motion.div>
