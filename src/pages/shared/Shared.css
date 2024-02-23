@@ -6,7 +6,7 @@
 }
 
 .bghome {
-    background-image: linear-gradient(rgba(202, 202, 202, 0.75), rgba(109, 109, 109, 0.75)), url("../../assets/images/bghome.png");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../assets/images/bghome.png");
 }
 
 .parent {
