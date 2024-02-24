@@ -17,7 +17,7 @@ const Tentang = () => {
     }
   }, [inView, animation]);
   return (
-    <div className="parent bg-gray-400">
+    <div className="pt-16 parent bg-gray-400">
       <div className="pt-16">
         <motion.div
           className="mb-12"
