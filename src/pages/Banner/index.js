@@ -10,7 +10,7 @@ import { SecondaryBtn } from "../../components";
 const Banner = () => {
 
   return (
-    <div className="parent min-h-[100px] mx-auto py-16 flex flex-col-reverse lg:flex-row items-center justify-between bghome">
+    <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between bghome">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
