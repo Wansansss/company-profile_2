@@ -20,13 +20,13 @@ const Kontak = () => {
     }
   }, [inView, animation]);
   return (
-    <div className="pt-16 py-16 parent bg-gray-400">
+    <div className="py-16 parent bg-gray-400">
       <motion.div
         initial="hidden"
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h1 className="text-4xl font-semibold text-center drop-shadow-md">
+        <h1 className="pt-16 text-4xl font-semibold text-center drop-shadow-md">
           Hubungi <span className="text-purple-700">Kami</span>
         </h1>
         <BottomLine />
