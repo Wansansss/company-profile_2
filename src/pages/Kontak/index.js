@@ -20,7 +20,7 @@ const Kontak = () => {
     }
   }, [inView, animation]);
   return (
-    <div className="py-16 parent bg-gray-400">
+    <div className="pt-16 py-16 parent bg-gray-400">
       <motion.div
         initial="hidden"
         animate={viewDiv && "visible"}
