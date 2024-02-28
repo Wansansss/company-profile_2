@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import {
   FaPhoneAlt,
   FaFacebookSquare,
-  FaTwitterSquare,
   FaInstagramSquare,
+  FaTiktok,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -73,21 +73,21 @@ const Footer = () => {
         </div>
         <div className="flex items-center md:mt-12">
           <a
-            href="/"
+            href="https://www.facebook.com/profile.php?id=61555043132593&sfnsn=wiwspwa&mibextid=RUbZ1f"
             target="blank"
             className="text-4xl text-accent hover:text-purple-700 hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
             <FaFacebookSquare></FaFacebookSquare>
           </a>
           <a
-            href="/"
+            href="https://www.tiktok.com/@sinarlestari555?_t=8kFQuNQAsa8&_r=1"
             target="blank"
             className="text-4xl text-accent hover:text-purple-700 hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
-            <FaTwitterSquare></FaTwitterSquare>
+           <FaTiktok></FaTiktok>
           </a>
           <a
-            href="/"
+            href="https://www.instagram.com/slsinarlestari?igsh=MXQydDNsZDFkcjl6ZA=="
             target="blank"
             className="text-4xl text-accent hover:text-purple-700 hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
