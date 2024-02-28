@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center my-1">
             <MdEmail className="mr-6 text-2xl text-accent"></MdEmail>
-            <a href="mailto:Sinarlestari555@gmail.com"><h3 className="font-medium text-purple-700">Sinarlestari555@gmail.com</h3></a>
+            <a href="mailto:sinarlestari555@gmail.com"><h3 className="font-medium text-purple-700">sinarlestari555@gmail.com</h3></a>
           </div>
         </div>
         {/* Tautan */}
