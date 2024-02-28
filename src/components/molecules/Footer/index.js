@@ -3,7 +3,6 @@ import logo from "../../../assets/images/LogoSInergiMandiriLestari.png"
 import { Link } from "react-router-dom";
 import {
   FaPhoneAlt,
-  FaLinkedin,
   FaFacebookSquare,
   FaTwitterSquare,
   FaInstagramSquare,
@@ -73,13 +72,6 @@ const Footer = () => {
           </h1>
         </div>
         <div className="flex items-center md:mt-12">
-          <a
-            href="/"
-            target="blank"
-            className="text-4xl text-accent hover:text-purple-700 hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-          >
-            <FaLinkedin></FaLinkedin>
-          </a>
           <a
             href="/"
             target="blank"
