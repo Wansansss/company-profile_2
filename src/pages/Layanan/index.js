@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Items from "../../utils/Items";
-import { motion} from "framer-motion";
+import { motion, useAnimation} from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "./Layanan.css";
 import {
   headingAnimation,
   sectionBodyAnimation,
@@ -11,13 +10,23 @@ import { BottomLine } from "../../components";
 
 const Layanan = () => {
   const [items] = useState(Items);
-  const [ref] = useInView();
+  const [ref, inView] = useInView();
+  const [viewDiv, setViewDiv] = useState(false);
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      setViewDiv(true);
+    } else {
+      setViewDiv(false);
+    }
+  }, [inView, animation]);
   return (
     <div className="pt-16 bg-gray-400">
       <div className="py-16 parent ">
         <motion.div
           initial="hidden"
-          animate={"visible"}
+          animate={viewDiv && "visible"}
           variants={headingAnimation}
         >
           <div className="mb-6">
@@ -31,7 +40,7 @@ const Layanan = () => {
         <motion.div
           ref={ref}
           initial="hidden"
-          animate={"visible"}
+          animate={viewDiv && "visible"}
           variants={sectionBodyAnimation}
         >
           {/* Items Card */}
