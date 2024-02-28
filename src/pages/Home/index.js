@@ -3,6 +3,8 @@ import Tentang from "../Tentang";
 import Layanan from "../Layanan";
 import Kontak from "../Kontak";
 import Banner from "../Banner";
+import TimKami from "../TimKami";
+
 
 
 const Home = () => {
@@ -11,6 +13,7 @@ const Home = () => {
       <Banner/>
       <Tentang/>
       <Layanan/>
+      <TimKami/>
       <Kontak/>
     </div>
   );
