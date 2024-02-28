@@ -43,9 +43,9 @@ const Kontak = () => {
             <h1 className="font-extrabold text-2xl">Sinergi Mandiri Lestari</h1>
             <br />
             <p>
-              Terima kasih sudah berkunjung! Jika kamu memiliki pertanyaan seputar
-              Sinergi Mandiri Lestari, Silahkan hubungi kami melalui kontak di
-              laman ini.
+              Terima kasih sudah berkunjung! Jika kamu memiliki pertanyaan
+              seputar Sinergi Mandiri Lestari, Silahkan hubungi kami melalui
+              kontak di laman ini.
             </p>
           </div>
         </motion.div>
@@ -57,17 +57,33 @@ const Kontak = () => {
         >
           <div className="flex items-center my-6">
             <FaMapMarkerAlt className="mr-8 text-4xl duration-300 cursor-pointer hover:text-purple-700"></FaMapMarkerAlt>
-            <h3 className="font-medium text-purple-700">4, Jl. Utama Raya No.11.f, RT.4/RW.3, Cengkareng Bar., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730</h3>
+            <h3 className="font-medium text-purple-700">
+              4, Jl. Utama Raya No.11.f, RT.4/RW.3, Cengkareng Bar., Kecamatan
+              Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta
+              11730
+            </h3>
           </div>
           <div className="flex items-center my-6">
-            <a href={"https://wa.me/6282227000222?text=Hallo Admin,"}>
+            <a
+              href={"https://wa.me/6282227000222?text=Hallo Admin,"}
+              target="blank"
+            >
               <FaPhoneAlt className="mr-8 text-2xl duration-300 cursor-pointer hover:text-purple-700" />
             </a>
-            <a href={"https://wa.me/6282227000222?text=Hallo Admin,"}><h3 className="font-medium text-purple-700">+62 822-2700-0222</h3></a>
+            <a
+              href={"https://wa.me/6282227000222?text=Hallo Admin,"}
+              target="blank"
+            >
+              <h3 className="font-medium text-purple-700">+62 822-2700-0222</h3>
+            </a>
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="mr-8 text-2xl duration-300 cursor-pointer hover:text-purple-700"></MdEmail>
-            <a href="mailto:sinarlestari555@gmail.com"><h3 className="font-medium text-purple-700">sinarlestari555@gmail.com</h3></a>
+            <a href="mailto:sinarlestari555@gmail.com">
+              <h3 className="font-medium text-purple-700">
+                sinarlestari555@gmail.com
+              </h3>
+            </a>
           </div>
         </motion.div>
       </div>
