@@ -43,6 +43,18 @@ const TimKami = () => {
           animate={viewDiv && "visible"}
           variants={sectionBodyAnimation}
         >
+          <div className="items-center p-6 text-center sm:px-20">
+          <motion.div
+            ref={ref}
+            initial="hidden"
+            animate={viewDiv && "visible"}
+            variants={sectionBodyAnimation}
+          >
+            <p className="font-medium text-2xl text-accent">
+            Kami memiliki tim yang profesional dan berpengalaman dalam bidangnya masing-masing. Dan karyawan adalah kekuatan untuk menjadi kunci kolaborasi agar selalu memberikan pelayanan terbaik kepada  pelanggan kami.
+            </p>
+          </motion.div>
+          </div>
           {/* Items Card */}
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 ">
             {Tims.map((Tims) => (
