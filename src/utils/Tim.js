@@ -1,7 +1,7 @@
-import pict1 from "../assets/images/Tim/Pict_1.png"
-import pict2 from "../assets/images/Tim/Pict_2.png"
-import pict3 from "../assets/images/Tim/Pict_3.png"
-import pict4 from "../assets/images/Tim/Pict_4.png"
+import pict1 from "../assets/images/Tim/Pict_1.jpeg"
+import pict2 from "../assets/images/Tim/Pict_2.jpeg"
+import pict3 from "../assets/images/Tim/Pict_3.jpeg"
+import pict4 from "../assets/images/Tim/Pict_4.jpeg"
 
 
 const Tim = [
