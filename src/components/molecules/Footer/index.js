@@ -24,10 +24,10 @@ const Footer = () => {
           <div className="flex items-center my-1">
             <FaPhoneAlt className="mr-6 text-2xl text-accent"></FaPhoneAlt>
             <div className="flex flex-col">
-              <a href="https://wa.me/6282137026688?text=Hallo Admin," className="font-medium text-purple-700">+62 821-3702-6688</a>
-              <a href="https://wa.me/6282227000222?text=Hallo Admin," className="font-medium text-purple-700">+62 822-2700-0222</a>
-              <a href="https://wa.me/6282250001666?text=Hallo Admin," className="font-medium text-purple-700">+62 822-5000-1666</a>
-              <a href="https://wa.me/6281290844844?text=Hallo Admin," className="font-medium text-purple-700">+62 812-9084-4844</a>
+              <a href="https://wa.me/6282137026688?text=Hallo Admin," className="font-medium text-purple-700" target="blank">+62 821-3702-6688</a>
+              <a href="https://wa.me/6282227000222?text=Hallo Admin," className="font-medium text-purple-700" target="blank">+62 822-2700-0222</a>
+              <a href="https://wa.me/6282250001666?text=Hallo Admin," className="font-medium text-purple-700" target="blank">+62 822-5000-1666</a>
+              <a href="https://wa.me/6281290844844?text=Hallo Admin," className="font-medium text-purple-700" target="blank">+62 812-9084-4844</a>
             </div>
           </div>
           <div className="flex items-center my-1">
