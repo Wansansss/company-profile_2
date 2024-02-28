@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion, useAnimation} from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {
   headingAnimation,
@@ -52,14 +52,12 @@ const TimKami = () => {
                   x: 0,
                   scale: 1,
                   opacity: 1,
-                  transition: { duration:0.3 },
+                  transition: { duration: 0.3 },
                 }}
                 key={Tims.id}
-                className="flex flex-col p-3 duration-300 rounded-lg shadow-lg impactfull-card"
+                className="flex flex-col p-3 duration-300 rounded-lg shadow-lg impactfull-card items-center justify-center"
               >
-                <h3 className="text-lg font-semibold text-center text-accent">
-                  {Tims.Image}
-                </h3>
+                {Tims.Image}
               </motion.div>
             ))}
           </div>
