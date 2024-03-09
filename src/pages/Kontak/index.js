@@ -79,9 +79,9 @@ const Kontak = () => {
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="mr-8 text-2xl duration-300 cursor-pointer hover:text-purple-700"></MdEmail>
-            <a href="mailto:sinarlestari555@gmail.com">
+            <a href="mailto:sinergimandirilestari@gmail.com">
               <h3 className="font-medium text-purple-700">
-                sinarlestari555@gmail.com
+              sinergimandirilestari@gmail.com
               </h3>
             </a>
           </div>
