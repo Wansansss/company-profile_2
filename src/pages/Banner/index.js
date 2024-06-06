@@ -25,7 +25,7 @@ const Banner = () => {
         </p>
 
         <div className="flex items-center mb-20">
-          <Link to="https://ecommercesl.vercel.app" className="ml-4">
+          <Link to="https://sinarlestarielektronik.com" className="ml-4">
             <SecondaryBtn>
               <span className="text-button-mobile text-white">Kunjungi Marketplace</span>
               <span>
